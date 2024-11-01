@@ -6,6 +6,8 @@
 // @version     1.0
 // @author      -
 // @description 2024/11/1 14:22:30
+// @downloadURL  https://raw.githubusercontent.com/liang3472/monkey-scripts/refs/heads/main/galex-onekey.js
+// @updateURL    https://raw.githubusercontent.com/liang3472/monkey-scripts/refs/heads/main/galex-onekey.js
 // ==/UserScript==
 console.log('✅ 脚本加载完成');
 const checkExist = setInterval(() => {
