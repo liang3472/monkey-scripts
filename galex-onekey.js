@@ -12,7 +12,7 @@
 console.log('✅ 脚本加载完成');
 const checkExist = setInterval(() => {
   console.log('⏳ 等待出现元素ing...')
-  let target = document.evaluate("/html/body/div[1]/main/div/div/div[2]/div/div[2]/div[2]/div", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+  let target = document.evaluate("/html/body/div[1]/main/div[1]/div/div/div[2]/div/div[2]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
   if (target) {
     clearInterval(checkExist);
     let button = document.createElement('button');
